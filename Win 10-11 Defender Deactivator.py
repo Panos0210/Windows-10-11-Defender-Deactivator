@@ -1,0 +1,18 @@
+import pyautogui as auto, time
+
+time.sleep(0.5)
+auto.press('win')
+time.sleep(0.3)
+auto.typewrite("Windows Security")
+auto.press('enter')
+time.sleep(5)
+auto.press('enter')
+time.sleep(0.3)
+auto.press('down',interval=0.20, presses=5)
+auto.press('enter')
+time.sleep(1)
+auto.press('space')
+time.sleep(1)
+auto.press('left')
+time.sleep(1)
+auto.press('enter')
